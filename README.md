@@ -2,6 +2,8 @@
 
 Redis版本基于5.0
 
+[集群工作原理](https://mp.weixin.qq.com/s?__biz=MzU4ODM1NjY5NQ==&mid=2247483711&idx=1&sn=a2750edad63b08fb31858f0a999e35af&chksm=fddf4c07caa8c511402c2875421d719b1d3fc873b9d55f2387e6b41f28b877e3693131e12b38&token=1103528493&lang=zh_CN#rd)
+
 ## 工具准备
 redis-server工具
 redis-cli工具
@@ -26,3 +28,7 @@ redis-cli --cluster add-node 127.0.0.1:7007  127.0.0.1:7005 --cluster-slave --cl
 redis-cli --cluster add-node 127.0.0.1:7008  127.0.0.1:7005 --cluster-slave --cluster-master-id <7005的NodeId> -a 123456
 redis-cli --cluster add-node 127.0.0.1:7009  127.0.0.1:7005 --cluster-slave --cluster-master-id <7005的NodeId> -a 123456
 ```
+
+## 更多
+**更多Redis学习内容请关注下面的公众号**
+![kPuJRH.jpg](https://s2.ax1x.com/2019/01/20/kPuJRH.jpg)
