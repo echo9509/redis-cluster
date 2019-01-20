@@ -30,5 +30,5 @@ redis-cli --cluster add-node 127.0.0.1:7009  127.0.0.1:7005 --cluster-slave --cl
 ```
 
 ## 更多
-**更多Redis学习内容请关注下面的公众号**
+**更多Redis学习内容请关注图片中的公众号**
 ![kPuJRH.jpg](https://s2.ax1x.com/2019/01/20/kPuJRH.jpg)
